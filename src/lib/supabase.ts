@@ -6,7 +6,7 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'placeholder-a
 // Debug logs to help diagnose Netlify build issues
 console.log('🔍 Supabase Debug Info:')
 console.log('  VITE_SUPABASE_URL:', import.meta.env.VITE_SUPABASE_URL)
-console.log('  VITE_SUPABASE_ANON_KEY:', import.meta.env.VITE_SUPABASE_ANON_KEY ? '[SET]' : '[NOT SET]')
+console.log('  VITE_SUPABASE_ANON_KEY (raw):', import.meta.env.VITE_SUPABASE_ANON_KEY ? '[SET]' : '[NOT SET]')
 console.log('  Final supabaseUrl:', supabaseUrl)
 console.log('  Final supabaseAnonKey:', supabaseAnonKey ? '[SET]' : '[NOT SET]')
 
